@@ -40,13 +40,36 @@ body {
   font-size: large;
 }
 
+
 /* About page styles */
 #about-pic {
   width: 300px;
 }
+
+.sns-icons {
+  color: $main-color !important;
+  margin: 0px 10px;
+}
+
+.sns {
+  margin: 1%;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     padding-top: 3%;
+  }
+  .proj-contents {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .proj-contents {
+    width: 100%;
+    margin: 0 auto;
   }
 }

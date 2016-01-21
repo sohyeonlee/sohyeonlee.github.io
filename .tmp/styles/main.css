@@ -8749,16 +8749,40 @@ body {
 }
 
 /* About page styles */
-/* line 44, ../../app/styles/main.scss */
+/* line 45, ../../app/styles/main.scss */
 #about-pic {
   width: 300px;
 }
 
+/* line 49, ../../app/styles/main.scss */
+.sns-icons {
+  color: #790b02 !important;
+  margin: 0px 10px;
+}
+
+/* line 54, ../../app/styles/main.scss */
+.sns {
+  margin: 1%;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 49, ../../app/styles/main.scss */
+  /* line 61, ../../app/styles/main.scss */
   .container {
     padding-top: 3%;
+  }
+
+  /* line 64, ../../app/styles/main.scss */
+  .proj-contents {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 71, ../../app/styles/main.scss */
+  .proj-contents {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
