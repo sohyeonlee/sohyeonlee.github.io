@@ -1,0 +1,52 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+$main-color: #790b02;
+body {
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+/* Navigation bar styles */
+#logo {
+  width: 100px;
+  padding: 0% 10px;
+  margin: 0 10px;
+}
+
+.navbar-default {
+  background-color: transparent !important;
+  border: none;
+
+  a {
+    background-color: transparent !important;
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $main-color !important;
+}
+/* Portfoilo page styles */
+.center {
+  text-align: center;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.title {
+  font-size: large;
+}
+
+/* About page styles */
+#about-pic {
+  width: 300px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 3%;
+  }
+}
