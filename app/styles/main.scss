@@ -4,6 +4,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 $main-color: #790b02;
+$hover-color: #3f0601;
+
 body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif !important;
@@ -39,8 +41,25 @@ body {
 .title {
   font-size: large;
 }
+.card {
+  border: solid 1px #ddd;
+  margin: 10px 0em;
+}
 
+.btn-main {
+  background-color: $main-color;
+  color:white;
+  margin: 1em;
+}
 
+.btn-main:hover {
+  background-color: $hover-color;
+  text-decoration: none !important;
+}
+
+.proj-img {
+  width: 100%;
+}
 /* About page styles */
 #about-pic {
   width: 300px;
@@ -64,6 +83,7 @@ body {
   .proj-contents {
     width: 60%;
     margin: 0 auto;
+    text-align: left;
   }
 }
 

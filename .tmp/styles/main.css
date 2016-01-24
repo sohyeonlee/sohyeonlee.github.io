@@ -8703,83 +8703,108 @@ button.close {
     display: none !important;
   }
 }
-/* line 7, ../../app/styles/main.scss */
+/* line 9, ../../app/styles/main.scss */
 body {
   padding: 0;
   font-family: 'Ubuntu', sans-serif !important;
 }
 
 /* Navigation bar styles */
-/* line 12, ../../app/styles/main.scss */
+/* line 14, ../../app/styles/main.scss */
 #logo {
   width: 100px;
   padding: 0% 10px;
   margin: 0 10px;
 }
 
-/* line 18, ../../app/styles/main.scss */
+/* line 20, ../../app/styles/main.scss */
 .navbar-default {
   background-color: transparent !important;
   border: none;
 }
-/* line 22, ../../app/styles/main.scss */
+/* line 24, ../../app/styles/main.scss */
 .navbar-default a {
   background-color: transparent !important;
 }
 
-/* line 27, ../../app/styles/main.scss */
+/* line 29, ../../app/styles/main.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #790b02 !important;
 }
 
 /* Portfoilo page styles */
-/* line 31, ../../app/styles/main.scss */
+/* line 33, ../../app/styles/main.scss */
 .center {
   text-align: center;
 }
 
-/* line 35, ../../app/styles/main.scss */
+/* line 37, ../../app/styles/main.scss */
 .portfolio {
   width: 100%;
 }
 
-/* line 39, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 .title {
   font-size: large;
 }
 
+/* line 44, ../../app/styles/main.scss */
+.card {
+  border: solid 1px #ddd;
+  margin: 10px 0em;
+}
+
+/* line 49, ../../app/styles/main.scss */
+.btn-main {
+  background-color: #790b02;
+  color: white;
+  margin: 1em;
+}
+
+/* line 55, ../../app/styles/main.scss */
+.btn-main:hover {
+  background-color: #3f0601;
+  text-decoration: none !important;
+}
+
+/* line 60, ../../app/styles/main.scss */
+.proj-img {
+  width: 100%;
+}
+
 /* About page styles */
-/* line 45, ../../app/styles/main.scss */
+/* line 64, ../../app/styles/main.scss */
 #about-pic {
   width: 300px;
 }
 
-/* line 49, ../../app/styles/main.scss */
+/* line 68, ../../app/styles/main.scss */
 .sns-icons {
   color: #790b02 !important;
   margin: 0px 10px;
 }
 
-/* line 54, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 .sns {
   margin: 1%;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 61, ../../app/styles/main.scss */
+  /* line 80, ../../app/styles/main.scss */
   .container {
     padding-top: 3%;
   }
 
-  /* line 64, ../../app/styles/main.scss */
+  /* line 83, ../../app/styles/main.scss */
   .proj-contents {
     width: 60%;
     margin: 0 auto;
+    text-align: left;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 71, ../../app/styles/main.scss */
+  /* line 91, ../../app/styles/main.scss */
   .proj-contents {
     width: 100%;
     margin: 0 auto;
